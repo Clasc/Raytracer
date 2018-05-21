@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Raytracer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/chris/CLionProjects/Raytracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/chris/CLionProjects/Raytracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/chris/CLionProjects/Raytracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Raytracer">
+				<Option output="/home/chris/CLionProjects/Raytracer/cmake-build-debug/Raytracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chris/CLionProjects/Raytracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Raytracer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Raytracer/fast">
+				<Option output="/home/chris/CLionProjects/Raytracer/cmake-build-debug/Raytracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chris/CLionProjects/Raytracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Raytracer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chris/CLionProjects/Raytracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Camera.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Camera.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Color.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Color.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Light.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Light.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Material.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Material.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Mesh.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Mesh.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Obj.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Obj.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/ParallelLight.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/ParallelLight.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/PointLight.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/PointLight.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Raytracer.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Raytracer.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Sphere.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/Sphere.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/SpotLight.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/SpotLight.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/main.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/ray.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/ray.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/tinyxml2.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/tinyxml2.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="/home/chris/CLionProjects/Raytracer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
